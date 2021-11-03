@@ -172,7 +172,7 @@ $c = curl('https://edtsapp.indomaretpoinku.com/notification/api/push-notificatio
                 #
                 $createpin = curl('https://edtsapp.indomaretpoinku.com//login/api/pin/create-pin', '{"pinCode":"230414"}', $xoxo);
                 if (strpos($createpin[1], '"message":"Success"')) {
-                   echo @color('green', "Pin : 230414\n");
+                   echo @color('green', "Pin : 767006\n");
                 } else {
                     echo @color('red', "Gagal buat pin\n");
                 }
@@ -284,8 +284,8 @@ $getdev = curl('https://api.klikindomaret.com/api/MobileAppsVersion/getDevice_To
                         echo @color('yellow', "Nomor : ");
                         echo @color('nevy', "$nomor\n");
                         echo @color('yellow', "Password : ");
-                        echo @color('nevy', "makatik\n");
-                        save($nomor.";makatik", 'akunklik.txt');
+                        echo @color('nevy', "kintil123\n");
+                        save($nomor.";kintil123", 'akunklik.txt');
                         echo @color('yellow', "Tersimpan di akunklik.txt\n");
         $respi = json_decode($regis[1]);
                 $respid = $respi->ResponseID;
