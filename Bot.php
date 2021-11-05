@@ -3,7 +3,7 @@ date_default_timezone_set("Asia/Jakarta");
 awalmula:
 
 echo @color('nevy', " *============================================* \n");
-echo @color('nevy', " 1.> Script by Suhu GLEN666       \n");
+echo @color('nevy', " 1.> MAK ATIK SELALU DI DEPAN       \n");
 echo @color('green', " 2.> MARI CUAN BERSAMA    \n");
 echo @color('nevy', " *============================================* \n");
 
@@ -170,7 +170,7 @@ $c = curl('https://edtsapp.indomaretpoinku.com/notification/api/push-notificatio
                 $kakaka = curl('https://edtsapp.indomaretpoinku.com/customer/api/is-whatsapp-verified', null, $xoxo);
 
                 #
-                $createpin = curl('https://edtsapp.indomaretpoinku.com//login/api/pin/create-pin', '{"pinCode":"230414"}', $xoxo);
+                $createpin = curl('https://edtsapp.indomaretpoinku.com//login/api/pin/create-pin', '{"pinCode":"767006"}', $xoxo);
                 if (strpos($createpin[1], '"message":"Success"')) {
                    echo @color('green', "Pin : 767006\n");
                 } else {
@@ -278,7 +278,7 @@ if (strpos($reg2[1], '"Message":"Verifikasi berhasil dilakukan."')) {
     $email = $datas->result[0]->email;
     
 $getdev = curl('https://api.klikindomaret.com/api/MobileAppsVersion/getDevice_Token?device_token=740f4707bebcf74f9b7c25d48e3358945f6aa01da5ddb387462c7eaf61bb78ad', null, $kuntul);
-    $regis = curl('https://api.klikindomaret.com/api/Customer/RegisterViaMobileApps?districtID=2483&mfp_id=9525d94cce3e723ca591fbb655e2bf56fed124feeacead050566290598b579ac', '{"FName":"'.$nama.'","LName":"'.$nama2.'","Email":"'.$email.'","KonfirmasiEmail":"","Gender":"Wanita","Mobile":"'.$nomor.'","Password":"makatik","ConfirmPassword":"makatik","IsConfirmed":true,"district":{"id":2483,"name":"Gunung Sahari Selatan"},"isShowPassword":false,"isShowPasswordConfirm":false,"errorMessageEmail":null,"errorMessageConfirmPassword":null,"ID":"00000000-0000-0000-0000-000000000000","IPAddress":"192.168.56.132","IsSubscribed":1,"IsNewsLetterSubscriber":1,"AllowSMS":false,"LastUpdate":"0001-01-01T00:00:00","DateOfBirth":"1996-01-'.rand(01, 30).'T00:00:00.000Z","DateOfBirthStringFormatted":"1996-01-'.rand(01, 30).'","TypePushEmail":0,"IsUpload":false,"IsActivated":false,"MobileVerified":true,"DateOfBirthExists":"0001-01-01T00:00:00","OTPValidationExpired":false,"IsFromOtherSystem":false,"OTPCount":0,"OTPAvailable":0}', $kuntul);
+    $regis = curl('https://api.klikindomaret.com/api/Customer/RegisterViaMobileApps?districtID=2483&mfp_id=9525d94cce3e723ca591fbb655e2bf56fed124feeacead050566290598b579ac', '{"FName":"'.$nama.'","LName":"'.$nama2.'","Email":"'.$email.'","KonfirmasiEmail":"","Gender":"Wanita","Mobile":"'.$nomor.'","Password":"kintil123","ConfirmPassword":"kintil123","IsConfirmed":true,"district":{"id":2483,"name":"Gunung Sahari Selatan"},"isShowPassword":false,"isShowPasswordConfirm":false,"errorMessageEmail":null,"errorMessageConfirmPassword":null,"ID":"00000000-0000-0000-0000-000000000000","IPAddress":"192.168.56.132","IsSubscribed":1,"IsNewsLetterSubscriber":1,"AllowSMS":false,"LastUpdate":"0001-01-01T00:00:00","DateOfBirth":"1996-01-'.rand(01, 30).'T00:00:00.000Z","DateOfBirthStringFormatted":"1996-01-'.rand(01, 30).'","TypePushEmail":0,"IsUpload":false,"IsActivated":false,"MobileVerified":true,"DateOfBirthExists":"0001-01-01T00:00:00","OTPValidationExpired":false,"IsFromOtherSystem":false,"OTPCount":0,"OTPAvailable":0}', $kuntul);
     if (strpos($regis[1], '"IsSuccess":true')) {
         echo @color('green', "Registrasi Berhasil\n");
                         echo @color('yellow', "Nomor : ");
@@ -402,7 +402,7 @@ $tempikkk[] = 'User-Agent: okhttp/5.0.0-alpha.2';
                                                               }
                             }
                             save("===========================\n", 'vocerlain.txt');
-                            save($nomor.";".$uuid.";230414\n", 'akunadavocer.txt');
+                            save($nomor.";".$uuid.";767007\n", 'akunadavocer.txt');
                         } else {
                             echo color('red', "$cek[1]\n");
                             goto cekkkvc;
