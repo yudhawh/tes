@@ -3,7 +3,7 @@ date_default_timezone_set("Asia/Jakarta");
 awalmula:
 
 echo @color('nevy', " *============================================* \n");
-echo @color('nevy', " 1.> MAK ATIK SELALU DI DEPAN       \n");
+echo @color('nevy', " 1.> Script by ('yellow', MASTER TEBOO \n");      \n");
 echo @color('green', " 2.> MARI CUAN BERSAMA    \n");
 echo @color('nevy', " *============================================* \n");
 
